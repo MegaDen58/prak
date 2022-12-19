@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ppra.SecondController">
+   <children>
+      <AnchorPane prefHeight="96.0" prefWidth="726.0" style="-fx-background-color: #39E444;">
+         <children>
+            <Label alignment="CENTER" layoutX="239.0" layoutY="27.0" prefHeight="41.0" prefWidth="248.0" text="Здоровье" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="31.0" />
+               </font>
+            </Label>
+            <Button fx:id="backButton" layoutX="14.0" layoutY="30.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="72.0" text="Button" />
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="200.0" layoutX="477.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="38.0" layoutY="105.0" prefHeight="33.0" prefWidth="248.0" text="Результат">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="resLabel" alignment="TOP_LEFT" layoutX="38.0" layoutY="139.0" prefHeight="150.0" prefWidth="426.0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="recomendation" alignment="TOP_LEFT" layoutX="17.0" layoutY="341.0" prefHeight="124.0" prefWidth="686.0" text="текст" wrapText="true" />
+      <Label alignment="CENTER" layoutX="215.0" layoutY="289.0" prefHeight="39.0" prefWidth="290.0" text="Рекомендации по образу жизни">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="218.0" layoutY="465.0" prefHeight="39.0" prefWidth="290.0" text="Врачебное направление">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="docRecomendation" layoutX="20.0" layoutY="504.0" prefHeight="34.0" prefWidth="686.0" text="текст" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
